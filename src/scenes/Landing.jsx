@@ -1,3 +1,4 @@
+import SocialMediaIcons from "../components/SocialMediaIcons"
 import React from 'react';
 import useMediaQuery from '../hooks/useMediaQuery';
 import { motion } from "framer-motion"
@@ -86,7 +87,7 @@ const Landing = ({ setSelectedPage }) => {
                             visible: { opacity: 1, x: 0 }
                         }}
                     >
-                        
+                        <SocialMediaIcons/>
                     </motion.div>
                 </div>
         </section>
