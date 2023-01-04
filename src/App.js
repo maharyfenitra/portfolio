@@ -2,7 +2,9 @@ import Navbar from "./scenes/Navbar"
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 import DotGroup from "./scenes/DotGroup";
-import Landing from "./scenes/Landing"
+import Landing from "./scenes/Landing";
+import LineGradient from "./components/LineGradient";
+import MySkills from "./scenes/MySkills"
 
 function App() {
   const [selectedPage, setSelectedPage] = useState('home');
@@ -11,8 +13,7 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY === 0) setIsTopOfPage(true);
-      if (window.scrollX !== 0) selectedPage(false);
-
+      if (window.scrollY !== 0) setIsTopOfPage(false);
     }
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
@@ -30,6 +31,10 @@ function App() {
             setSelectedPage = {setSelectedPage}
           />)}
           <Landing setSelectedPage = {setSelectedPage} />
+      </div>
+      <LineGradient/>
+      <div className="w-5/6 mx-auto md:h-full">
+            <MySkills/>
       </div>
     </div>
   );

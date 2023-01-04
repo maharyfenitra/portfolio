@@ -54,7 +54,7 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage }) => {
                 </button>)}
                 {/** Mobile menu popup */}
                 {!isAboveMediumScreens && isMenuToggled && (
-                    <div className='fixed right-0 bottom-0 bg-blue w-[300px]'>
+                    <div className='fixed right-0 bottom-0 bg-blue w-[300px] h-full'>
                         {/** Close icon */}
                         <div className='flex justify-start p-12'>
                             <button onClick={() => { setIsMenuToggled(!isMenuToggled) }}>
