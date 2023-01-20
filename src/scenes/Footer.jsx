@@ -7,8 +7,8 @@ const Footer = () => {
         <div className='w-5/6 mx-auto'>
             <SocialMediaIcons/>
             <div className='md:flex justify-center md:justify-between text-center'>
-                <p className='font-playfair font-semibold text-2xl text-yellow'>JANE ESPER</p>
-                <p className='font-playfair text-md text-yellow'>@2022 ESPER. All Right Reserved</p>
+                <p className='font-playfair font-semibold text-2xl text-yellow'>Mahary Fenitra RAFANOMEZANA</p>
+                <p className='font-playfair text-md text-yellow'>@2022 Mahary. All Right Reserved</p>
             </div>
         </div>
     </footer>
