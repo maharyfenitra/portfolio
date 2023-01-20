@@ -43,7 +43,7 @@ const Landing = ({ setSelectedPage }) => {
                             </span>
                         </p>
                         <p className='mt-10 mb-7 text-sm text-center md:text-start'>
-                        Very passionate developer and loving new technology, with several years of experience with the agile method. Open-minded and always ready for a new challenges.
+                        Very passionate developer and very curious about new technology, with several years of experience with the agile method. Open-minded and always ready for a new challenges.
                         </p>
                     </motion.div>
                     {/** CALL TO ACTIONS */}
