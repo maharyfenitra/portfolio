@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   mode: 'jit',
   theme: {
+    listStyleType: {
+      square: 'square',
+    },
     extend: {
       colors: {
         blue: "#2CBCE9",
@@ -25,9 +28,9 @@ module.exports = {
       },
       content: {
         brush: "url('../public/assets/brush.png')",
-        person1: "url('../public/assets/person-1.png')",
-        person2: "url('../public/assets/person-2.png')",
-        person3: "url('../public/assets/person-3.png')",
+        person1: "url('../public/assets/bocasay.jpeg')",
+        person2: "url('../public/assets/jovena.jpeg')",
+        person3: "url('../public/assets/eo.jpg')",
       }
     },
     screens: {

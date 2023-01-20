@@ -36,14 +36,14 @@ const Landing = ({ setSelectedPage }) => {
                         }}
                     >
                         <p className='text-6xl font-playfair z-10 text-center md:text-start'>
-                            Jane {""}
+                            Mahary {""}
                             <span className='xs:relative xs:text-deep-blue xs:font-semibold z-20 
                             xs:before:content-brush before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]'>
-                                Esper
+                                Fenitra
                             </span>
                         </p>
                         <p className='mt-10 mb-7 text-sm text-center md:text-start'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic voluptate amet quos quod inventore!
+                        Very passionate developer and loving new technology, with several years of experience with the agile method. Open-minded and always ready for a new challenges.
                         </p>
                     </motion.div>
                     {/** CALL TO ACTIONS */}

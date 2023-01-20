@@ -18,13 +18,15 @@ const Testimonials = () => {
                     hidden: { opacity: 0, x: -50 },
                     visible: { opacity: 1, x: 0 }
                 }}
+                
             >
                 <p className='font-playfair font-semibold mb-5 text-red text-center'>
-                    TESTIMONIALS
+                CAREER SUMMARY
                 </p>
                 <LineGradient width='mx-auto w-2/4' />
                 <p className='mt-10'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, corrupti et.
+                Since 2015, I started my adventure as a software developer. And since then I have learned to love my work. 
+                I worked for different companies and I learned a lot and I continue to learn.
                 </p>
             </motion.div>
             {/**Testimonials */}
@@ -40,10 +42,17 @@ const Testimonials = () => {
                         visible: { opacity: 1, scale: 1 }
                     }}
                 >
-                    <p className='font-playfair text-6xl'>"</p>
-                    <p className='text-center text-xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta doloribus vero, 
+                    <p className='font-playfair text-2xl'>JavaScript Developer</p>
+                    <p className='text-left text-xl'>
+                    Bocasay-Madagascar June 2022 to date
                     </p>
+                        <ul className='list-square ml-7'>
+                            <li>FrontEnd ReactJs Developer</li>
+                            <li>Client-side graphql query creation</li>
+                            <li>SQL query creation</li>
+                            <li>End2End test</li>
+                        </ul>
+                    
                 </motion.div>
                 <motion.div
                     className={`bg-red ${testimonialStyles} before:content-person2`}
@@ -56,9 +65,15 @@ const Testimonials = () => {
                         visible: { opacity: 1, scale: 1 }
                     }}
                 >
-                    <p className='font-playfair text-6xl'>"</p>
-                    <p className='text-center text-xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta doloribus vero,
+                    <p className='font-playfair text-2xl'>IT Developer</p>
+                    <p className='text-left text-xl'>
+                    Jovena-Madagascar July 2017 to May 2022
+                    </p>
+                    <p>
+                        <ul className='list-square ml-7'>
+                            <li>Develop specifications intended according to the needs of the company</li>
+                            <li>Follow-up of development projects in collaboration with service providers</li>
+                        </ul>
                     </p>
                 </motion.div>
                 <motion.div
@@ -72,9 +87,15 @@ const Testimonials = () => {
                         visible: { opacity: 1, scale: 1 }
                     }}
                 >
-                    <p className='font-playfair text-6xl'>"</p>
-                    <p className='text-center text-xl'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta doloribus vero,
+                    <p className='font-playfair text-2xl'>Junior Developer</p>
+                    <p className='text-left text-xl'>
+                    Fuba Industries January 2015 to June 2017
+                    </p>
+                    <p className='text text-xl'>
+                        <ul className='list-square ml-7'>
+                            <li>Development of different Prestashop modules</li>
+                            <li>User interface development</li>
+                        </ul>
                     </p>
                 </motion.div>
             </div>
