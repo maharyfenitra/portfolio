@@ -18,6 +18,7 @@ const Testimonials = () => {
                     hidden: { opacity: 0, x: -50 },
                     visible: { opacity: 1, x: 0 }
                 }}
+                
             >
                 <p className='font-playfair font-semibold mb-5 text-red text-center'>
                 CAREER SUMMARY
