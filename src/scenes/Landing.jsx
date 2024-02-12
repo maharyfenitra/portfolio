@@ -38,11 +38,7 @@ const Landing = ({ setSelectedPage }) => {
                         }}
                     >
                         <p className='text-6xl font-playfair z-10 text-center md:text-start'>
-                            Mahary {""}
-                            <span className='xs:relative xs:text-deep-blue xs:font-semibold z-20 
-                            xs:before:content-brush before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]'>
-                                Fenitra
-                            </span>
+                            Mahary RAFANOMEZANA
                         </p>
                         <p className='mt-10 mb-7 text-md text-center md:text-start'>
                         As a developer, I am exceptionally passionate and harbor a profound curiosity for the latest emerging technologies. Over the course of numerous years, I have meticulously honed my skills within the agile framework, showcasing remarkable adaptability to ever-changing project environments. With a strong open-minded ethos, I eagerly embrace new challenges, seeing them as invaluable opportunities for perpetual learning and professional growth. Additionally, I thrive in collaborative settings, leveraging excellent communication skills to work effectively with others. I am adept at fostering strong team dynamics and facilitating productive collaboration towards achieving shared goals.
