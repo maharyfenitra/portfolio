@@ -26,7 +26,7 @@ const MySkills = () => {
                     </p>
                     <LineGradient width='w-1/3' />
                     <p className='mt-10 mb-7'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, corrupti et. Commodi alias minus tenetur.
+                    In my professional journey, I have cultivated expertise in both backend and frontend development, leveraging a comprehensive array of advanced technologies to drive innovative solutions. Notably, I am proficient in utilizing platforms such as React, Next.js, Nest.js, and GraphQL, among others, to architect and implement scalable, high-performance systems. Through meticulous attention to detail and a commitment to staying abreast of industry trends, I have consistently delivered results of the highest caliber, ensuring the seamless integration of cutting-edge functionalities and optimal user experiences.
                     </p>
                 </motion.div>
                 <div className='mt-16 md:mt-0'>
@@ -65,7 +65,7 @@ const MySkills = () => {
                         <div className='w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]'></div>
                     </div>
                     <p className='mt-5'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eaque aliquam laudantium tenetur eius ab totam quaerat perferendis consequatur cumque.
+                    I'm skilled in web standards like HTML/CSS and vanilla JavaScript, ensuring adherence to best practices. Additionally, I excel in modern frameworks like ReactJS and Next.js, crafting dynamic web applications for today's development landscape.
                     </p>
                 </motion.div>
                 {/** Innovative */}
@@ -88,7 +88,7 @@ const MySkills = () => {
                         <div className='w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]'></div>
                     </div>
                     <p className='mt-5'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eaque aliquam laudantium tenetur eius ab totam quaerat perferendis consequatur cumque.
+                    I am equally passionate about backend development, particularly with frameworks like Nest.js. Additionally, I occasionally dedicate time to expanding my knowledge in Java, particularly focusing on Spring Boot, as I strive to continuously enhance my proficiency in backend development.
                     </p>
                 </motion.div>
                 {/** Imaginative */}
@@ -111,7 +111,7 @@ const MySkills = () => {
                         <div className='w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]'></div>
                     </div>
                     <p className='mt-5'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque cupiditate architecto, minima nihil pariatur quod? Eaque tempora laudantium maiores odit.
+                    I have a strong passion for algorithm design and problem-solving. Each challenge is an opportunity for me to enhance my skills and find creative solutions. With dedication and practice, I am continuously improving my ability to tackle diverse computational problems effectively.
                     </p>
                 </motion.div>
             </div>

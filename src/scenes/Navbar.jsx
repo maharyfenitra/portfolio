@@ -2,15 +2,16 @@ import React from 'react'
 import { useState } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from '../hooks/useMediaQuery';
+import CV from "./CV2024.pdf";
 
-const Link = ({ page, selectedPage, setSelectedPage }) => {
+const Link = ({ page, selectedPage, setSelectedPage, label }) => {
     const lowerCasePage = page.toLowerCase();
     return (<AnchorLink className={`${selectedPage === lowerCasePage ? "text-yellow" : ""} hover:text-yellow transition duration-500`}
 
         href={`#${lowerCasePage}`}
         onClick={() => setSelectedPage(lowerCasePage)}
     >
-        {page}
+        {label}
     </AnchorLink>)
 }
 
@@ -19,19 +20,25 @@ const MenuItems = ({ selectedPage, setSelectedPage }) => {
     return <>
         <Link page="home"
             selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage} />
+            setSelectedPage={setSelectedPage} 
+                label={"Home"}
+            />
         <Link page="Skills"
             selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage} />
-        <Link page="Projects"
-            selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage} />
+            setSelectedPage={setSelectedPage} 
+            label={"Skills"}
+            />
         <Link page="Testimonials"
             selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage} />
+            setSelectedPage={setSelectedPage} 
+            label={"Work exprience"}
+            />
         <Link page="Contact"
             selectedPage={selectedPage}
-            setSelectedPage={setSelectedPage} />
+            setSelectedPage={setSelectedPage}
+            label={"Contact"}
+            />
+        <a href={CV} target="_blank" download>Dowload my resume</a>
     </>
 }
 const Navbar = ({isTopOfPage, selectedPage, setSelectedPage }) => {

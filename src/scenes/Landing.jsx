@@ -14,12 +14,14 @@ const Landing = ({ setSelectedPage }) => {
                     (<div className='relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 
                 before:rounded-t-[400px] before:w-full before:max-w-[400px] before:h-full before:border-2 before:border-blue before:z-[-1]'>
                         <img alt="profile"
-                            className='hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]'
-                            src="assets/profile-image.png"
+                            className='hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-[400px]'
+                            src="assets/profile-image.jpg"
                         />
                     </div>) : (<img alt="profile"
-                        className='hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]'
-                        src="assets/profile-image.png"
+                        className='hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]
+                        rounded-t-[400px]
+                        '
+                        src="assets/profile-image.jpg"
                     />)}
                 </div>
                 {/** Main section */}
@@ -43,7 +45,7 @@ const Landing = ({ setSelectedPage }) => {
                             </span>
                         </p>
                         <p className='mt-10 mb-7 text-sm text-center md:text-start'>
-                        Very passionate developer and very curious about new technology, with several years of experience with the agile method. Open-minded and always ready for a new challenges.
+                        As a developer, I am exceptionally passionate and harbor a profound curiosity for the latest emerging technologies. Over the course of numerous years, I have meticulously honed my skills within the agile framework, showcasing a remarkable adaptability to the ever-changing dynamics of project environments. My embrace of an open-minded ethos fuels my enthusiasm for welcoming new challenges, as I view them as invaluable opportunities for perpetual learning and continual professional growth.
                         </p>
                     </motion.div>
                     {/** CALL TO ACTIONS */}

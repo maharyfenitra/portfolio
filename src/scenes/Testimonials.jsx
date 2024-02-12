@@ -25,8 +25,7 @@ const Testimonials = () => {
                 </p>
                 <LineGradient width='mx-auto w-2/4' />
                 <p className='mt-10'>
-                Since 2015, I started my adventure as a software developer. And since then I have learned to love my work. 
-                I worked for different companies and I learned a lot and I continue to learn.
+                Since 2015, I've embarked on my journey as a software developer, gradually falling in love with my work. Through diverse roles at different companies, I've gained invaluable experience, continually expanding my skill set and deepening my passion for the field.
                 </p>
             </motion.div>
             {/**Testimonials */}
