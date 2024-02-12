@@ -11,7 +11,7 @@ const SocialMediaIcons = () => {
         <img alt="linkedin-link" src="assets/linkedin.png"/>
       </a>
       <a className='hover:opacity-50 transition duration-500'
-      href='ww.facebook.com'
+      href='https://www.facebook.com/fenitra.mahary'
       target='_blank'
       rel='noreferrer'
       >

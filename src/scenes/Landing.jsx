@@ -44,8 +44,8 @@ const Landing = ({ setSelectedPage }) => {
                                 Fenitra
                             </span>
                         </p>
-                        <p className='mt-10 mb-7 text-sm text-center md:text-start'>
-                        As a developer, I am exceptionally passionate and harbor a profound curiosity for the latest emerging technologies. Over the course of numerous years, I have meticulously honed my skills within the agile framework, showcasing a remarkable adaptability to the ever-changing dynamics of project environments. My embrace of an open-minded ethos fuels my enthusiasm for welcoming new challenges, as I view them as invaluable opportunities for perpetual learning and continual professional growth.
+                        <p className='mt-10 mb-7 text-md text-center md:text-start'>
+                        As a developer, I am exceptionally passionate and harbor a profound curiosity for the latest emerging technologies. Over the course of numerous years, I have meticulously honed my skills within the agile framework, showcasing remarkable adaptability to ever-changing project environments. With a strong open-minded ethos, I eagerly embrace new challenges, seeing them as invaluable opportunities for perpetual learning and professional growth. Additionally, I thrive in collaborative settings, leveraging excellent communication skills to work effectively with others. I am adept at fostering strong team dynamics and facilitating productive collaboration towards achieving shared goals.
                         </p>
                     </motion.div>
                     {/** CALL TO ACTIONS */}

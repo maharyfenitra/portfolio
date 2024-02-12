@@ -31,14 +31,14 @@ const MenuItems = ({ selectedPage, setSelectedPage }) => {
         <Link page="Testimonials"
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage} 
-            label={"Work exprience"}
+            label={"Work Exprience"}
             />
         <Link page="Contact"
             selectedPage={selectedPage}
             setSelectedPage={setSelectedPage}
             label={"Contact"}
             />
-        <a href={CV} target="_blank" download>Dowload my resume</a>
+        <a href={CV} target="_blank" download>Dowload My Resume</a>
     </>
 }
 const Navbar = ({isTopOfPage, selectedPage, setSelectedPage }) => {
