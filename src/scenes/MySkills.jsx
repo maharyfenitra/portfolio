@@ -26,7 +26,7 @@ const MySkills = () => {
                     </p>
                     <LineGradient width='w-1/3' />
                     <p className='mt-10 mb-7'>
-                    n my professional journey, I've mastered both backend and frontend development, utilizing advanced technologies like React, Next.js, Nest.js, and GraphQL. I'm adept at working within teams with complex workflows and proficient in Git for version control. With meticulous attention to detail and a commitment to staying updated with industry trends, I consistently deliver high-caliber results, ensuring seamless integration of cutting-edge functionalities and optimal user experiences.
+                    In my professional journey, I've mastered both backend and frontend development, utilizing advanced technologies like React, Next.js, Nest.js, and GraphQL. I'm adept at working within teams with complex workflows and proficient in Git for version control. With meticulous attention to detail and a commitment to staying updated with industry trends, I consistently deliver high-caliber results, ensuring seamless integration of cutting-edge functionalities and optimal user experiences.
                     </p>
                 </motion.div>
                 <div className='mt-16 md:mt-0'>
